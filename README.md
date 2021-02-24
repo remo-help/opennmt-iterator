@@ -14,4 +14,4 @@ Step 1: Have a directory where one or more *correctly configured* .yaml files ar
 
 Step 2: Run execute_all.py from your command line, with the --dir DIRECTORY argument filled. The optional argument -iter allows you to iterate over all immediate subdirectories of the directory you specified with --dir.
 
-Your opennmt-py will now train all the modely for which you created .yaml files in succession.
+Your opennmt-py will now train all the models for which you created .yaml files in succession.
