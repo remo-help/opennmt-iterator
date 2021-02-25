@@ -8,8 +8,8 @@ def main():
 	if len(sys.argv)==1:
 		print("Please specify the following arguments:\n --dir: the directory you wish to use, \n --iter: \"Yes\" if you wish to iterate over all lvl 1 sub-directories\n DISCLAIMER: Please be aware that your .yaml files must be configured as if they were in the directory from which execute_all.py is operating")
 	parser = argparse.ArgumentParser(description='specify a directory')
-	parser.add_argument("--dir", help="The directory where your yaml files are, if this is the directory, try \"here\"" ,required=True) # naming it "echo"
-	parser.add_argument("--iter", help="If \"Yes\" will look through all level 1 subdirectories of the directory you specified in --dir, default: False" ,required=False) # naming it "echo"
+	parser.add_argument("--dir", help="The directory where your yaml files are, if this is the directory, try \"here\"" ,required=True) 
+	parser.add_argument("--iter", help="If \"Yes\" will look through all level 1 subdirectories of the directory you specified in --dir, default: False" ,required=False) 
 	args = parser.parse_args()	# returns data from the options specified (echo
 	print("You chose iteratopm:", args.iter)
 	print("You chose directory:", args.dir)
