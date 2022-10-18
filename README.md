@@ -1,4 +1,8 @@
 # opennmt-iterator
+
+__Disclaimer:__ This is a very old script I wrote back when I started learning python. I'm just leaving this up for posterity's sake. Your projects don't always have to be perfect.
+
+
 This script will run onmt_train on all .yaml and .yml files in the directory you specify.
 This is so you can train multiple networks in sequence without starting the training manually. This currently only works opennmt-py
 
